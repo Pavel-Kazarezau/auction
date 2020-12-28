@@ -1,0 +1,17 @@
+.outer:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.inner {
+    display: inline-block;
+    vertical-align: middle;
+}
+.outer {
+    text-align: center;
+}
+
+body {
+    background: antiquewhite;
+}
